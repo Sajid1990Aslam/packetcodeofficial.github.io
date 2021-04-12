@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+
+<body style="text-align: center; border: 1px solid black; margin: 40px; background-color: lightgrey;">
+    <h1> Fill in the form below to contact the Royal Kingdom </h1> <hr>
+
+    <section>
+        <div>
+            <form action="">
+                <label for="fname">First Name:</label> <br><br>
+                <input type="text" placeholder="Your first name.."> <br><br>
+
+                <label for="lname">Last Name:</label> <br><br>
+                <input type="text" placeholder="Your last name.."> <br><br>
+
+                <label for="e-mail">E-mail id:    </label> <br><br>
+                <input type="text" placeholder="Your e-mail.."> <br><br>
+
+                <label for="cellNumber"> Cell Number:</label> <br><br>
+                <input type="text" placeholder="Your cell number.."> <br><br>
+
+                <label for="subject">Subject</label> <br><br>
+                <textarea placeholder="Write something.." style= "height: 200px"></textarea> <br><br>
+                <!--<input type="submit" value="Submit"> <br><br>-->
+                <button onclick="myFunction()"> Submit it </button> <br><br>
+            </form>
+        </div>
+    </section> 
+    
+    <script>
+        function myFunction() {
+            alert("Your message has been submitted. Thank you.")
+        }  
+    </script>
+    
+</body>
+</html>

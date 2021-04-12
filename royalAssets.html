@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style type="text/css">
+		#i {
+			font-family: "Trebuchet MS" Arial, Helvetica, sans-serif;
+			border-collapse: separate;
+			width: 100%;
+		}
+		#i td, #itr {
+			border:2px solid green;
+			padding: 10px;
+		}
+		#i tr:nth-child(even) {
+			background-color: pink;
+		}
+		#i tr:hover {
+			background-color: lightgreen;
+		}
+		#i th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;background-color: skyblue;
+			color: blue;
+			vertical-align: bottom;
+		}
+        body {
+            background-color: lightpink;
+        }
+	</style>
+</head>
+
+<body>
+        <h1>kingdom’s royal assets:</h1>
+		<div style="overflow-x: auto;">
+		<table id="i">
+		<tr>
+			<th> Kingdom Name </th>
+			<th> Annual Cost </th>
+			<th> Annual Salary </th>
+		</tr>
+
+		<tr>
+			<td> King's Kingdom </td>
+			<td> 1$ </td>
+			<td> 0.5$ </td>
+		</tr>
+
+		<tr>
+			<td> Queen's Kingdom </td>
+			<td> 1$</td>
+			<td> 0.5$ </td>
+		</tr>
+
+		<tr>
+			<td> Prince's Kingdom </td>
+			<td> 0.8$ </td>
+			<td> 0.4$</td>
+		</tr>
+		</table>
+		</div>
+</body>
+</html>
